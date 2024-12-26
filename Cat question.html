@@ -1,1 +1,52 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tell me about your Cat</title>
+    </head>
+    <body>
+       <h1 id="title">Tell me about your Cat!</h1>
+       <p id="description">Please give information about your favory Cat</p>
+       <form id="survey-form">
+         <label id="name-label" for="name">Cat name:</label>
+         <input id="name" type="text" placeholder="Yasmin"/>
+         <br>
+         <label id="email-label" for="email">Cat email:</label>
+         <input id="email" type="email" placeholder="yasmin@gmail.com"/>
+         <br>
+         <label id="age-label" for="age">Cat age:</label>
+         <input id="age" type="number" min="0" max="100" placeholder="6"/>
+         <span>years</span>
+         <br>
+         <label id="color-label" for="color">Cat color:</label>
+         <select id="color">
+           <option value="white">white</option>
+           <option value="black">black</option>
+           <option value="green">green</option>
+         </select>
+         <br>
+         <br>
+         <span>Please select your Cat gender:</span>
+         <br>
+         <input type="radio" id="gender-male" name="gender" value="male">
+         <label for="gender-male">male</label>
+         <br>
+         <input type="radio" id="gender-female" name="gender" value="female">
+         <label for="gender-female">female</label>
+         <br>
+         <br>
+         <input type="checkbox" id="eatalot" value="eatalot">
+         <label for="eatalot"> my Cat eat a lot</label>
+         <br>
+         <input type="checkbox" id="sleepalot" value="sleepalot">
+         <label for="sleepalot"> my Cat sleep a lot</label>
+         <br>
+         <br>
+         <label for="cathistory"> Tell me about your Cat history:</label>
+         <br>
+         <textarea id="cathistory" rows="2"></textarea>
+         <br>
+         <br>
+         <button type="submit">send Cat information</button>
+       </form>
+    </body>
+</html>
